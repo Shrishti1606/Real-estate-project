@@ -1,6 +1,7 @@
 import React from 'react'
 import "./SinglePage.scss";
 import Slider from '../../components/slider/Slider';
+import Map from '../../components/map/Map';
 import {singlePostData, userData} from "../../lib/dummyData";
 
 const SinglePage = () => {
@@ -40,7 +41,26 @@ const SinglePage = () => {
 
       <div className="right">
         <div className="wrapper">
-
+          <p className='title'>General</p>
+          <div className="listVertical"></div>
+          <p className='title'>Sizes</p>
+          <div className="sizes"></div>
+          <p className='title'>Nearby Places</p>
+          <div className="listHorizontal"></div>
+          <p className='title'>Location</p>
+          <div className="mapCont">
+            <Map items={[singlePostData]}/>
+          </div>
+          <div className="buttons">
+            <button>
+              <img src="/chat.png" alt=""/>
+              Send a Message
+            </button>
+            <button>
+              <img src="/save.png" alt=""/>
+              Save the place
+            </button>
+          </div>
         </div>
       </div>
 
