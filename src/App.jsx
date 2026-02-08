@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider, Route, Link } from 'react-router-d
 import ListPage from './pages/listpage/ListPage'
 import Layout from './pages/layout/Layout'
 import SinglePage from './pages/singlepage/SinglePage'
+import Profile from './pages/profile/Profile'
 
 const App = () => {
 
@@ -26,6 +27,10 @@ const App = () => {
         {
           path: "/:id",
           element: <SinglePage />
+        },
+        {
+          path: "/profile",
+          element: <Profile />
         }
       ] 
     }
