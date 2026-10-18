@@ -1,7 +1,7 @@
 import React from 'react'
 import './list.scss'
 import Card from"../card/Card"
-import {listData} from"../../lib/dummydata"
+import {listData} from"../../lib/dummyData";
 
 const List = () => {
   return (
@@ -14,3 +14,4 @@ const List = () => {
 }
 
 export default List
+

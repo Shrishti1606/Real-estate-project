@@ -5,7 +5,7 @@ import React from 'react'
 const HomePage = () => {
   return (
     <div className='homePage'>
-
+/
     <div className="textContainer">
       <div className="wrapper">
       <h1 className='title'>
@@ -17,7 +17,7 @@ const HomePage = () => {
 
       <SearchBar />
 
-      <div className="boxes">
+      <div className="boxes">P
         <div className="box">
           <h1>16+</h1>
           <h2>Years of Experience</h2>
